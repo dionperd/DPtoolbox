@@ -1,0 +1,9 @@
+Short for "MATrix LABoratory", MATLAB was invented in the late 1970s by Cleve Moller, then chairman of the computer science department at the University of New Mexico.
+He designed it to give his students access to LINPACK and EISPACK without having to learn Fortran.
+It soon spread to other universities and found a strong audience within the applied mathematics community.
+Jake Little, an engineer, was exposed to it during a visit Moller made to Stanford University in 1983.
+Recognizing its commercial potential, he joined with Moller and Steve Bangert.
+They rewrote MATLAB in C and founded The MathWorks in 1984 to continue it is development.
+These rewritten libraries were lovingly known as JACKPAC.
+MATLAB was first adopted by control design engineers, Little's specialty, but quickly spread to many other domains.
+It is now also used in education, in particular the teaching of linear algebra and numerical analysis.

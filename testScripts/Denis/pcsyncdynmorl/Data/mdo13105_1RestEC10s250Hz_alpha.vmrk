@@ -1,0 +1,31 @@
+Brain Vision Data Exchange Marker File, Version 2.0
+; Data created from history path: mdo13105_1RestEC10s250Hz/Raw Data/alpha
+; The channel numbers are related to the channels in the exported file.
+
+[Common Infos]
+Codepage=UTF-8
+DataFile=mdo13105_1RestEC10s250Hz_alpha.dat
+
+[Marker Infos]
+; Each entry: Mk<Marker number>=<Type>,<Description>,<Position in data points>,
+; <Size in data points>, <Channel number (0 = marker is related to all channels)>,
+; <Date (YYYYMMDDhhmmssuuuuuu)>, Visible
+; Fields are delimited by commas, some fields may be omitted (empty).
+; Commas in type or description text are coded as "\1".
+Mk1=Stimulus,ECSt,1,1,0
+Mk2=New Segment,,1,1,0,20030507161511513000
+Mk3=New Segment,,2501,1,0,20030507161521513000
+Mk4=New Segment,,5001,1,0,20030507161531513000
+Mk5=New Segment,,7501,1,0,20030507161541513000
+Mk6=New Segment,,10001,1,0,20030507161551513000
+Mk7=New Segment,,12501,1,0,20030507161601513000
+Mk8=New Segment,,15001,1,0,20030507161611513000
+Mk9=New Segment,,17501,1,0,20030507161621513000
+
+[Marker User Infos]
+; Each entry: Prop<Number>=Mk<Marker number>,<Type>,<Name>,<Value>,<Value2>,...,<ValueN>
+; Property number must be unique. Types can be int, single, string, bool, byte, double, uint
+; or arrays of those, indicated int-array etc
+; Array types have more than one value, number of values determines size of array.
+; Fields are delimited by commas, commas in strings are written \1
+; Properties are assigned to markers using their marker number.

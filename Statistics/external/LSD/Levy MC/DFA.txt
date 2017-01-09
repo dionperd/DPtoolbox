@@ -1,0 +1,31 @@
+data=xlsread('upper.xls');
+t=10:100; %
+n=zeros(1,length(t));
+for i=1:length(t)
+n(i)=t(i);
+end
+n=floor(n);
+n=n';
+ 
+len=length(n); 
+F_n=zeros(len,1); %初始化
+ 
+%对每个n值求F_n
+ for i=1:len
+     F_n(i)=DFA(data,n(i),1);
+ end
+
+%线性拟合
+p=polyfit(log10(n),log10(F_n),1);
+ 
+%画图
+plot(n,F_n(:,1),'o');
+ 
+%画拟合曲线
+x=n;
+y=p(1)*log10(x)+p(2); 
+for i=1:len
+   y(i)=10^y(i);
+end
+hold on
+plot(x,y,'black');
